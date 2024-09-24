@@ -9,7 +9,7 @@ let mensagem = "";
         soma += parseFloat (notas[i]);
     }
     for (let j = 0; j < 4; j += 1) {
-        mensagem += notas [j] +  "\n";
+        mensagem += notas [j] + "\n";
     }
     let media = soma / 4;
     alert (`Notas ${mensagem}Média é ${media}`);
